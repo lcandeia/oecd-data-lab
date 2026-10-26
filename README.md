@@ -1,6 +1,14 @@
+
 # OECD Inflation Explorer
 
 **Laboratório de dados econômicos · Python + Streamlit + OCDE**
+
+### Live Demo
+
+[Explore the OECD Inflation Dashboard](https://oecd-data-lab.streamlit.app/)
+
+Interactive inflation analysis across 11 countries,
+powered by OECD datasets, Python and Streamlit.
 
 Aplicação de comparação internacional da inflação medida pelo **CPI (Consumer Price Index / Índice de Preços ao Consumidor)**. A implementação combina coleta por API SDMX, contratos de qualidade, tratamento tabular, cálculos de inflação em 12 meses e visualização interativa. Projeto independente, **não oficial nem afiliado à OCDE**.
 
