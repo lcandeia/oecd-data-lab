@@ -1,0 +1,34 @@
+# Ambientes e caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Arquivos locais e segredos
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.log
+.DS_Store
+Thumbs.db
+
+# Dados grandes e fontes históricas. Apenas snapshot curado é público.
+data/raw/
+data/silver/
+data/coverage/
+data/gold/*.parquet
+!data/gold/oecd_inflation_international_yoy.parquet
+# Adicionar o snapshot latest só depois de validação e revisão de licença
+# !data/gold/oecd_inflation_international_latest.parquet
+reports/
