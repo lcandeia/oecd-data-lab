@@ -90,7 +90,6 @@ A aplicação é destinada ao **Streamlit Community Cloud** com:
 - dependências via `uv.lock` e `pyproject.toml`;
 - snapshot Gold versionado em `data/gold/`.
 
-Tutorial completo: [`docs/DEPLOY_GITHUB.md`](docs/DEPLOY_GITHUB.md). Roadmap: [`docs/ROADMAP.md`](docs/ROADMAP.md).
 
 ## Fontes e créditos
 

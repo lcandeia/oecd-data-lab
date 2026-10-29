@@ -41,9 +41,4 @@ Os campos principais são `country` (código), `period` (primeiro dia do mês), 
 
 Se `data/gold/oecd_inflation_international_latest.parquet` estiver presente no servidor, ele tem prioridade. Caso contrário, usa o snapshot histórico. A presença de um arquivo local no PyCharm **não atualiza** o servidor na nuvem: o snapshot precisa ser enviado em commit ou por pipeline de distribuição explicitamente configurado.
 
-## Dívida técnica conhecida
 
-- Há funções de caminho de projeto repetidas nos módulos históricos; refatoração futura para `paths.py`.
-- `config.py` define um conjunto de 14 países candidatos, mas a Silver/Gold consolidada incorpora 11; não confundir catálogo desejado com cobertura validada.
-- A aplicação mantém um único indicador (CPI YoY); comparação entre países requer atenção à metodologia de cada origem.
-- O Streamlit usa CSS customizado que pode requerer revisão após grandes atualizações da biblioteca.

@@ -17,9 +17,8 @@ Confirme a **citação específica de cada dataset** nos metadados da fonte ante
 
 ## Uso de dados
 
-Segundo os termos da OCDE, a utilização, redistribuição e adaptação de dados são permitidas em geral, com citação apropriada; **podem existir restrições adicionais de terceiros**. O responsável pela publicação deve verificar o campo de fonte/direitos nas séries e assegurar autorização quando necessária. A licença MIT deste repositório cobre o **código original**, não reclassifica os dados como MIT.
-
-**Ponto de verificação obrigatório antes do push público:** conferir as restrições dos dataflows/países e a adequação do snapshot `data/gold/oecd_inflation_international_yoy.parquet` para redistribuição. Se houver impedimento, remova o snapshot e ajuste a hospedagem para consumir uma fonte autorizada.
+Segundo os termos da OCDE, a utilização, redistribuição e adaptação de dados são permitidas em geral, com citação apropriada; **podem existir restrições adicionais de terceiros**. 
+O responsável pela publicação deve verificar o campo de fonte/direitos nas séries e assegurar autorização quando necessária.      A licença MIT deste repositório cobre o **código original**, não reclassifica os dados como MIT.
 
 ## Organização dos dados no Git
 
